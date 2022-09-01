@@ -43,11 +43,12 @@
 
 
         .size{
-            width: 500px;
-            height: 32px;
+            min-width: 500px;
+            min-height: 32px;
         }
 
         .p{
+            color: #353437;
             display: flex;
             justify-content:flex-start ;
             padding-left: 119px;
@@ -86,9 +87,11 @@
     }
     .additionalcomments{
     
-        padding-top: 100px;
+    padding-top: 100px;
     padding-left: 150px;
+    
     }
     .padleft{
         padding-left: 42px;
+        
     }
